@@ -3,6 +3,7 @@ I poured countless hours of hard work and dedication into developing these proje
 - [Analysis On The Dataset Adverse Food Events(Python)]
 - [HR dashboard (Power BI]
 - [Netflix dashboard with Tableau]
+- [Abdul's Pizza House(SQL)]
 
 ## Analysis On The Dataset Adverse Food Events
 
@@ -32,3 +33,32 @@ Key Features Implemented:
 • Genre Diversity Showcase: Created interactive charts to display movie and TV show distribution by genre.
 • Top Genre Identification: Conducted analysis to identify the top 10 content genres on Netflix.
 • Enhanced User Experience: Incorporated filters for detailed exploration of movie or series descriptions, ratings, genres, release years, and durations.
+
+
+
+
+## Abdul's Pizza House(SQL)
+
+Project Overview:
+Abdul’s pizza house is a comprehensive database designed for managing pizza orders, menu items and sales. The database structure facilitates efficient handling of customer orders, menu management and sales tracking. It also includes solutions to various SQL queries to demonstrate data retrieval and manipulation.
+
+OBJECTIVES
+
+Order Management: Quick and accurate order processing for various pizza types and sizes.
+
+Menu Management: Easy updates and maintenance of the pizza menu.
+
+Sales Tracking: Record and analyze sales data for revenue reports
+
+
+Database Design
+
+The  database includes the following tables:
+1. pizza_types: Details about each type of pizza.
+Columns: pizza_type_id, name, category, ingredients
+
+2. pizzas: Information about specific pizzas, including size and price.
+Columns: pizza_id, pizza_type_id, size, price
+                                                                
+3. orders: Information about orders of pizzas
+Columns: order_id, order_date, order_time
